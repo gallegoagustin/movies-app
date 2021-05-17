@@ -1,0 +1,13 @@
+.favoritesSectionContainer {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noFavsContainer {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #14274e;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+.movieSectionContainer {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieSearchForm {
+    display: flex;
+    flex-direction: row;
+    margin: auto 4px;
+}
+
+#movieLabel {
+    margin-right: 4px;
+}
+
+.moviesList {
+    margin-top: 1em;
+    list-style: none;
+}
+
+.listPoster {
+    width: 100px;
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+
+    #movieLabel {
+        display: none;
+    }
+
+    .moviesList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listPoster {
+        margin-bottom: 10px;
+    }
+}
