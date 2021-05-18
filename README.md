@@ -6,4 +6,4 @@ You will be able to look for information about any movie or serie you want and a
 
 You can also try the mobile version!
 
-If you want to know more about my works you can access to my social networks linked below.
+https://movies-app-coral.vercel.app/
