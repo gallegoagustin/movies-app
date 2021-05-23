@@ -26,7 +26,7 @@ export class Buscador extends Component {
     const { title } = this.state;
     return (
       <div className="movieSectionContainer">
-        <h2 className="sectionTitle">Movies & series finder</h2>
+        <h2 className="sectionTitle">Movies & TV shows finder</h2>
         <form className="movieSearchForm"
               onSubmit={(e) => {this.handleSubmit(e); 
                         this.state.title.length !== 0 ? this.props.getMovies(this.state.title) : swal("You must enter a valid title")
